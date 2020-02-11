@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*,
+body,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin-top: 2.2rem;
+    padding: 1rem;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+
+.container{
+    background-image: url('/dist/img/undraw_researching_22gp.svg');
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-size: 550px;
+}
+
+#intro{
+    margin: 1rem 2rem 2rem 2rem;
+    padding: 2rem;
+}
+
+#intro-header{
+    color: #df0229;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 1.3rem 0;
+    padding: 1.3rem;
+}
+
+#intro-text{
+    padding: 1rem;
+    width: 40%;
+}
+
+.signin-btns{
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.signin-btns li{
+    display: inline-block;
+    padding: 1.8rem;
+    margin: 0.2rem 0;
+    
+}
+
+.signin-btn{
+    cursor: pointer;
+    padding: 0.7rem 2.7rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+.signin-btn:hover{
+    background-color: #df0229;
+}
+
+.wave{
+    display: block;
+    position: fixed;
+    z-index: -1;
+    background-color: #df0229;
+    width: 950px;
+    height: 120vh;
+    transform: translateX(600px) translateY(-700px);
+    border-width: 1000px;
+    border-color: #df0229;
+    border-bottom-left-radius: 1000px;
+    
+}
+
+#more-link{
+    display: inline-block;
+    margin-top: 4.5vh;
+    padding: 1.2rem 1.8rem;
+    color: #fff;
+    background-color: #df0229;
+    border-top-right-radius: 50px;
+}
+
+#more{
+    display: none;
+}
