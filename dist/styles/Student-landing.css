@@ -8,7 +8,6 @@ body {
 }
 
 .rect {
-    height: 800px;
     position: absolute;
     width: 700px;
     transform: translateY(-150px);
@@ -28,27 +27,25 @@ header {
 
 .nav {
     display: flex;
+    font-size: 20px;
+    color: #050310;
 }
 
 .nav * {
     margin-right: 20px;
 }
 
-.eal {
-    font-weight: 900;
-    font-size: 27px;
-}
-
 .eal-logo {
     font-family: 'Nunito',
         sans-serif;
     color: #fff;
+    width: 700px;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
-    height: 70vh;
+    height: 400px;
     align-items: center;
 }
 
@@ -71,7 +68,7 @@ header {
 }
 
 .hero-vector {
-    padding-top: 200px;
+    height: 100px;
 }
 
 .cards section {
@@ -140,7 +137,7 @@ input[type="radio"]:checked+section {
 
 .card-container {
     width: 100%;
-    height: 150vh;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
