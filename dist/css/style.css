@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
+/* Landing page */
 *,
 body,
 html{
@@ -10,7 +12,9 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
+
 
 header{
     margin-top: 2.2rem;
@@ -28,10 +32,11 @@ header{
     background-repeat: no-repeat;
     background-position: 700px;
     background-size: 550px;
+    
 }
 
 #intro{
-    margin: 1rem 2rem 2rem 2rem;
+    margin: 1rem 2rem 2rem 5rem;
     padding: 2rem;
 }
 
@@ -63,10 +68,12 @@ header{
 
 .signin-btn{
     cursor: pointer;
+    text-decoration: none;
     padding: 0.7rem 2.7rem;
     color: #fff;
     background-color: #000;
     border-radius: 25px;
+    transition: 0.5s;
 }
 
 .signin-btn:hover{
@@ -75,21 +82,21 @@ header{
 
 .wave{
     display: block;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     background-color: #df0229;
-    width: 950px;
+    width: 870px;
     height: 120vh;
-    transform: translateX(600px) translateY(-700px);
+    transform: translateX(650px) translateY(-700px);
     border-width: 1000px;
     border-color: #df0229;
     border-bottom-left-radius: 1000px;
-    
 }
 
 #more-link{
+    cursor: pointer;
     display: inline-block;
-    margin-top: 4.5vh;
+    margin-top: 4.7vh;
     padding: 1.2rem 1.8rem;
     color: #fff;
     background-color: #df0229;
@@ -98,4 +105,39 @@ header{
 
 #more{
     display: none;
+    padding: 1rem;
+    margin-left: 5rem;
 }
+
+#more-intro-text{
+    margin:2rem ;
+    padding-left: 2rem;
+    /* text-align: center; */
+}
+
+#more-intro-text > h3{
+    font-size: 35px;
+}
+
+#more-intro-text > h4{
+    margin-top: 1rem;
+}
+
+#more-images{
+    display: flex;
+    margin: 10rem 3rem 2rem 3rem;
+}
+
+.more-image{
+    vertical-align: baseline;
+}
+
+.more-image > img{
+    width: 33.33%;
+}
+
+.more-image-text{
+    margin-top: 3rem;
+}
+
+/* Student Sign in */
